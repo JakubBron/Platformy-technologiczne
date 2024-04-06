@@ -3,10 +3,11 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Optional;
 
-public class RepositoryInMemory implements RepositoryInterface {
+public class Repository implements RepositoryInterface {
+    // repository is in memory
     private final Collection<Mage> allMages = new ArrayList<>();
-    public RepositoryInMemory() {}
-    public RepositoryInMemory(Collection<Mage> collection) {
+    public Repository() {}
+    public Repository(Collection<Mage> collection) {
         this.allMages.addAll(collection);
     }
     @Override
