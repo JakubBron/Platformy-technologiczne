@@ -1,0 +1,14 @@
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab7\Lab7\bin\Debug\netcoreapp3.1\Lab7.exe
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab7\Lab7\bin\Debug\netcoreapp3.1\Lab7.deps.json
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab7\Lab7\bin\Debug\netcoreapp3.1\Lab7.runtimeconfig.json
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab7\Lab7\bin\Debug\netcoreapp3.1\Lab7.runtimeconfig.dev.json
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab7\Lab7\bin\Debug\netcoreapp3.1\Lab7.dll
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab7\Lab7\bin\Debug\netcoreapp3.1\Lab7.pdb
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab7\Lab7\obj\Debug\netcoreapp3.1\Lab7.csproj.AssemblyReference.cache
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab7\Lab7\obj\Debug\netcoreapp3.1\Lab7.GeneratedMSBuildEditorConfig.editorconfig
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab7\Lab7\obj\Debug\netcoreapp3.1\Lab7.AssemblyInfoInputs.cache
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab7\Lab7\obj\Debug\netcoreapp3.1\Lab7.AssemblyInfo.cs
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab7\Lab7\obj\Debug\netcoreapp3.1\Lab7.csproj.CoreCompileInputs.cache
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab7\Lab7\obj\Debug\netcoreapp3.1\Lab7.dll
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab7\Lab7\obj\Debug\netcoreapp3.1\Lab7.pdb
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab7\Lab7\obj\Debug\netcoreapp3.1\Lab7.genruntimeconfig.cache
