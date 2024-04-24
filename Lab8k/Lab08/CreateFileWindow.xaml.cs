@@ -29,15 +29,17 @@ public partial class CreateFileWindow : Window
         {
             MessageBox.Show("Invalid file name! Filename length must be 1-8 chara/digits and the extension must be 'txt',  'php' or 'html'.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
         }
-
-        if (isFile == false)
+        else 
         {
-            Directory.CreateDirectory(Path.Combine(_path.FullName, name));
-        }
-        else
-        {
-            File.Create(Path.Combine(_path.FullName, name)).Close();
-            File.SetAttributes(Path.Combine(_path.FullName, name), attributes);
+            if (isFile == false)
+            {
+                Directory.CreateDirectory(Path.Combine(_path.FullName, name));
+            }
+            else
+            {
+                File.Create(Path.Combine(_path.FullName, name)).Close();
+                File.SetAttributes(Path.Combine(_path.FullName, name), attributes);
+            }
         }
         Close();
     }
