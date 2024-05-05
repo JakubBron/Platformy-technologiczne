@@ -1,0 +1,14 @@
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab9\Lab9\bin\Debug\netcoreapp3.1\Lab9.exe
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab9\Lab9\bin\Debug\netcoreapp3.1\Lab9.deps.json
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab9\Lab9\bin\Debug\netcoreapp3.1\Lab9.runtimeconfig.json
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab9\Lab9\bin\Debug\netcoreapp3.1\Lab9.runtimeconfig.dev.json
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab9\Lab9\bin\Debug\netcoreapp3.1\Lab9.dll
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab9\Lab9\bin\Debug\netcoreapp3.1\Lab9.pdb
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab9\Lab9\obj\Debug\netcoreapp3.1\Lab9.csproj.AssemblyReference.cache
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab9\Lab9\obj\Debug\netcoreapp3.1\Lab9.GeneratedMSBuildEditorConfig.editorconfig
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab9\Lab9\obj\Debug\netcoreapp3.1\Lab9.AssemblyInfoInputs.cache
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab9\Lab9\obj\Debug\netcoreapp3.1\Lab9.AssemblyInfo.cs
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab9\Lab9\obj\Debug\netcoreapp3.1\Lab9.csproj.CoreCompileInputs.cache
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab9\Lab9\obj\Debug\netcoreapp3.1\Lab9.dll
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab9\Lab9\obj\Debug\netcoreapp3.1\Lab9.pdb
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab9\Lab9\obj\Debug\netcoreapp3.1\Lab9.genruntimeconfig.cache
