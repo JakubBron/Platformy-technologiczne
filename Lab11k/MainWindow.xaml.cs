@@ -1,19 +1,15 @@
-﻿using System.ComponentModel;
+using System;
+using System.ComponentModel;
 using System.Globalization;
 using System.IO;
 using System.IO.Compression;
+using System.Linq;
 using System.Net;
 using System.Numerics;
-using System.Text;
+using System.Threading.Tasks;
+using System.Threading;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using System.Windows.Forms;
 using MessageBox = System.Windows.MessageBox;
 
 namespace Lab11;
@@ -41,7 +37,7 @@ public partial class MainWindow : Window
         }
 
         var input = new Tuple<int, int>(N.Value, K.Value);
-        
+
         var numeratorTask = Task.Factory.StartNew(tuple =>
         {
             var (n, k) = (Tuple<int, int>)tuple!;
@@ -62,7 +58,7 @@ public partial class MainWindow : Window
             }
             return result;
         }, input);
-        
+
         Task.WaitAll(numeratorTask, denominatorTask);
 
         TasksResultTextBox.Text = (numeratorTask.Result / denominatorTask.Result).ToString(CultureInfo.InvariantCulture);
@@ -75,7 +71,7 @@ public partial class MainWindow : Window
             MessageBox.Show("K or N were not correct numbers.");
             return;
         }
-        
+
         var input = new Tuple<int, int>(N.Value, K.Value);
 
         Func<Tuple<int, int>, BigInteger> calculateNumerator = tuple =>
@@ -122,7 +118,7 @@ public partial class MainWindow : Window
             MessageBox.Show("K or N were not correct numbers.");
             return;
         }
-        
+
         var input = new Tuple<int, int>(N.Value, K.Value);
 
         async Task<BigInteger> CalculateNumeratorAsync(Tuple<int, int> tuple)
@@ -151,7 +147,7 @@ public partial class MainWindow : Window
         var denominatorTask = CalculateDenominatorAsync(input);
 
         await Task.WhenAll(numeratorTask, denominatorTask);
-        
+
         AsyncAwaitResultTextBox.Text = (numeratorTask.Result / denominatorTask.Result).ToString(CultureInfo.InvariantCulture);
     }
 
@@ -168,8 +164,8 @@ public partial class MainWindow : Window
             for (var i = 2; i < n; i++)
             {
                 results[i] = results[i - 2] + results[i - 1];
-                worker.ReportProgress((int)((double)(i + 1)/n*100));
-                Thread.Sleep(20);
+                worker.ReportProgress((int)((double)(i + 1) / n * 100));
+                Thread.Sleep(5);
             }
 
             args.Result = results[n - 1];
@@ -220,22 +216,5 @@ public partial class MainWindow : Window
             using var gs = new GZipStream(fs, CompressionMode.Decompress);
             gs.CopyTo(os);
         });
-    }
-
-    private void ResolveDns_OnClick(object sender, RoutedEventArgs e)
-    {
-        var hostNames = new[] { "www.microsoft.com", "www.apple.com",
-            "www.google.com", "www.ibm.com", "cisco.netacad.net",
-            "www.oracle.com", "www.nokia.com", "www.hp.com", "www.dell.com",
-            "www.samsung.com", "www.toshiba.com", "www.siemens.com",
-            "www.amazon.com", "www.sony.com", "www.canon.com", "www.alcatel-lucent.com",
-            "www.acer.com", "www.motorola.com" };
-
-        var resolved = hostNames
-            .AsParallel()
-            .Select(hostName =>
-                $"{hostName} => {string.Join(", ", Dns.GetHostAddresses(hostName).Select(x => x.ToString()))}")
-            .ToArray();
-        DnsResultTextBox.Text = string.Join("\n", resolved);
     }
 }
