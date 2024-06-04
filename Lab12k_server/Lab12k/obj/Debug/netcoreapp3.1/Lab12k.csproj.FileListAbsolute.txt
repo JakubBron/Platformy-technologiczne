@@ -1,0 +1,14 @@
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab12k\Lab12k\obj\Debug\netcoreapp3.1\Lab12k.csproj.AssemblyReference.cache
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab12k\Lab12k\obj\Debug\netcoreapp3.1\Lab12k.GeneratedMSBuildEditorConfig.editorconfig
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab12k\Lab12k\obj\Debug\netcoreapp3.1\Lab12k.AssemblyInfoInputs.cache
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab12k\Lab12k\obj\Debug\netcoreapp3.1\Lab12k.AssemblyInfo.cs
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab12k\Lab12k\obj\Debug\netcoreapp3.1\Lab12k.csproj.CoreCompileInputs.cache
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab12k\Lab12k\bin\Debug\netcoreapp3.1\Lab12k.exe
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab12k\Lab12k\bin\Debug\netcoreapp3.1\Lab12k.deps.json
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab12k\Lab12k\bin\Debug\netcoreapp3.1\Lab12k.runtimeconfig.json
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab12k\Lab12k\bin\Debug\netcoreapp3.1\Lab12k.runtimeconfig.dev.json
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab12k\Lab12k\bin\Debug\netcoreapp3.1\Lab12k.dll
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab12k\Lab12k\bin\Debug\netcoreapp3.1\Lab12k.pdb
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab12k\Lab12k\obj\Debug\netcoreapp3.1\Lab12k.dll
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab12k\Lab12k\obj\Debug\netcoreapp3.1\Lab12k.pdb
+C:\STUDIA PG\Platformy technologiczne\Laby\Lab12k\Lab12k\obj\Debug\netcoreapp3.1\Lab12k.genruntimeconfig.cache

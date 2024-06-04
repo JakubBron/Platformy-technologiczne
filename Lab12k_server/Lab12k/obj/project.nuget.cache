@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mnElR+kb7vaVCRe1TVHUZm5mWVRSkmku+Y2AXZFTiia0rdDLVMvAOFviBLI/MzlQFNyZZtBs2gy0ISucfHjZ7w==",
+  "success": true,
+  "projectFilePath": "C:\\STUDIA PG\\Platformy technologiczne\\Laby\\Lab12k\\Lab12k\\Lab12k.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kuba\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}

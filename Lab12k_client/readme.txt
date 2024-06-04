@@ -1,0 +1,1 @@
+This is a client programme. To start, in Powershell run .exe file from bin/Debug. This is a WPF application.

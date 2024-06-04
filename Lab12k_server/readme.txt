@@ -1,0 +1,1 @@
+This is a server programme. To start, in Powershell 'dotnet run Program.cs'. This is a normal C# console app.
